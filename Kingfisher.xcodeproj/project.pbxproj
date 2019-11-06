@@ -1428,6 +1428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7B91E45CD834BE64717E77F /* Pods-KingfisherTests-tvOS.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1446,6 +1447,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 033CD4A1D8C6D03D7AC150BE /* Pods-KingfisherTests-tvOS.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1465,6 +1467,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7204D40BEFEA059FA25864C4 /* Pods-KingfisherTests-macOS.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1482,6 +1485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE80CB18FBC9F9F23DC1FDCF /* Pods-KingfisherTests-macOS.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1617,6 +1621,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1677,6 +1682,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1746,7 +1752,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onevcat.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Kingfisher;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1774,7 +1780,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onevcat.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Kingfisher;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1786,6 +1792,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AB2628A580157ADADCE0011 /* Pods-KingfisherTests.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1805,6 +1812,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6CD5C0134AA4B1C0892E7319 /* Pods-KingfisherTests.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = Tests/KingfisherTests/Info.plist;
